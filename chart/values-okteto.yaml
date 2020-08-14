@@ -1,0 +1,10 @@
+# available runtimes: go, python, dart, cpp, java, rust
+runtime: go
+
+persistence:
+  size: 1Gi
+
+resources:
+  limits:
+    cpu: "1"
+    memory: 2Gi
